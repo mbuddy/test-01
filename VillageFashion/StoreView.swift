@@ -135,7 +135,7 @@ struct ItemCard: View {
                     Text("💰 \(item.price)")
                         .font(.subheadline)
                         .fontWeight(.semibold)
-                        .foregroundStyle(canAfford ? .primary : .red)
+                        .foregroundStyle(canAfford ? Color.primary : Color.red)
                 }
             }
 
